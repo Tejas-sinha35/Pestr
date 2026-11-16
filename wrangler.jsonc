@@ -1,5 +1,5 @@
 {
-  "name": "pestr",
+  "name": "pestr---invoice-chaser",
   "main": "index.ts",
   "compatibility_date": "2025-09-01",
   "observability": { "enabled": true },
@@ -10,7 +10,7 @@
     {
       "binding": "DB",
       "database_name": "pestr",
-      "database_id": "cc3f9397-a6fc-45b8-8538-cf4958445116"
+      "database_id": "656f3658-c0ea-42e0-921c-287b959dd145"
     }
   ]
 }
