@@ -1,5 +1,5 @@
 {
-  "name": "pestr---invoice-chaser",
+  "name": "pestr",
   "main": "index.ts",
   "compatibility_date": "2025-09-01",
   "observability": { "enabled": true },
