@@ -8,7 +8,7 @@
   "vars": { "FROM_EMAIL": "" },
   "d1_databases": [
     {
-      "binding": "pestr",
+      "binding": "DB",
       "database_name": "pestr",
       "database_id": "cc3f9397-a6fc-45b8-8538-cf4958445116"
     }
