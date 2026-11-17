@@ -1,20 +1,15 @@
 {
-  "name": "pestr---invoice-chaser",
+  "name": "pestr",
   "main": "index.ts",
   "compatibility_date": "2025-09-01",
   "observability": { "enabled": true },
-  // Daily at 08:00 UTC. Only does anything once RESEND_API_KEY and FROM_EMAIL are set.
   "triggers": { "crons": ["0 8 * * *"] },
   "vars": { "FROM_EMAIL": "" },
   "d1_databases": [
-    {{
-       "d1_databases": [
-        {
-         "binding": "DB",
-         "database_id": "b75d7743-8b59-4566-919c-629ef3826a0a"
-        }
-      ],
-     }
+    {
+      "binding": "DB",
+      "database_name": "pestr",
+      "database_id": "b75d7743-8b59-4566-919c-629ef3826a0a"
     }
   ]
 }
